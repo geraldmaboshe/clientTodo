@@ -4,7 +4,7 @@ import './App.css';
 import Todo from './components/Todo';
 import Header from './components/formart/Header';
 import AddTodo from './components/AddTodo';
-import Sub from './components/Sub';
+import axios from 'axios';
 import uuid from 'uuid';
 
 class App extends Component {
@@ -14,6 +14,12 @@ class App extends Component {
 
     ]
   }
+  componentDidMount() {
+    axios.get('http://localhost:9090')
+      .then(res => this.setState({ main: res.data }))
+
+  }
+
   markDone = (id) => {
     this.setState({
       main: this.state.main.map(item => {
