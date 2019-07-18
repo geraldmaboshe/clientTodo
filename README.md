@@ -1,25 +1,19 @@
-> You will find all the shared resources about react [here](https://github.com/BongoHive/front-end-learning-resources) Make sure you go through those materials first.
+
 
 ### To-do
 
-The overall goal of this assignment is to create a to-do app.
-It should have the following:
+This is a todo app with the below feaures
 
 - an input field to add an item
 - List of all items added
-- Checkbox on each item to mark complete
-- Completed items should look different
-- You should be able to remove each item
+- Checkbox on each item used to mark complete
+- Completed items look different
+- YAn item can be removed
 
-Good to have.
-
-- Have different files that contain different components
-- reuse components as much as possible
-- use just CSS no other css frameworks
+What to know.
+- Use only CSS, no other CSS frameworks
 
 
-### How to use this repo
-> Make sure you have completed the Github course before proceeding if you are not familiar with `git`
 
 **Requirements**
 
@@ -48,4 +42,4 @@ start the dev server
 And get hacking .... 😀🚀
 
 
-**Note**: If you have any problem, create an issue in this repository explaining the problem
+**Note**: Feel freee to contribute. If you have any problem, create an issue in this repository explaining the problem
